@@ -2,7 +2,7 @@
 
 ## Company Overview
 
-Veltrix AI is a fictional mid-market B2B SaaS company that provides AI-powered revenue operations and customer intelligence software for growing businesses.
+Veltrix AI is a mid-market B2B SaaS company that provides AI-powered revenue operations and customer intelligence software for growing businesses.
 
 The platform helps organizations manage:
 
