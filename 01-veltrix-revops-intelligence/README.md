@@ -7,17 +7,13 @@ Enterprise Revenue Operations Intelligence System designed for executive decisio
 
 ## Dashboard Preview — Veltrix RevOps Intelligence
 
-### Page 1: Executive Command Center
-![Executive Command Center](01-veltrix-revops-intelligence/assets/screenshots/page_1_executive_summary.png)
+![Executive Command Center](assets/screenshots/page_1_executive_summary.png)
 
-### Page 2: Revenue Operations Intelligence  
-![Revenue Operations](01-veltrix-revops-intelligence/assets/screenshots/page_2_revenue_analysis.png)
+![Revenue Operations](assets/screenshots/page_2_revenue_analysis.png)
 
-### Page 3: Customer Health & Retention Intelligence
-![Customer Health](01-veltrix-revops-intelligence/assets/screenshots/page_3_customer_segments.png)
+![Customer Health](assets/screenshots/page_3_customer_segments.png)
 
-### Page 4: Forecasting & Predictive Intelligence
-![Forecasting](01-veltrix-revops-intelligence/assets/screenshots/page_4_forecasting_predictive_intelligence.png)
+![Forecasting](assets/screenshots/page_4_forecasting_predictive_intelligence.png)
 
 
 ## Core Objectives
