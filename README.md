@@ -1,115 +1,84 @@
-<div align="center">
+<h1 align="center">Shaheer Analytics</h1>
+<h3 align="center">Enterprise Analytics | RevOps Intelligence | 
+Business Intelligence</h3>
 
-# Shaheer Analytics
-
-### Enterprise Analytics | RevOps Intelligence | Forecasting | Business Intelligence,
-
-Enterprise analytics portfolio focused on executive decision-making, revenue operations intelligence, customer analytics, forecasting, and business performance optimization using SQL, Python, and Power BI.
-
----
-
-![SQL](https://img.shields.io/badge/SQL-0F172A?style=for-the-badge&logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-1D4ED8?style=for-the-badge&logo=python&logoColor=white)
-![PowerBI](https://img.shields.io/badge/Power_BI-F59E0B?style=for-the-badge&logo=powerbi&logoColor=black)
-![Pandas](https://img.shields.io/badge/Pandas-111827?style=for-the-badge&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-2563EB?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black"/>
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white"/>
+</p>
 
 ---
 
-# About This Portfolio
+## About This Portfolio
 
-This repository contains enterprise-grade analytics projects designed around real-world business problems across:
-
-- Revenue Operations
-- Executive Intelligence
-- Customer Analytics
-- Forecasting
-- Sales Intelligence
-- Marketing Attribution
-- Operational Analytics
-- Predictive Modeling
-
-The focus of this portfolio is not only dashboard creation, but building complete business intelligence systems capable of supporting executive and operational decision-making.
+Enterprise analytics portfolio built around real-world B2B SaaS 
+business problems — combining domain expertise from 4+ years in 
+Sales and Customer Success with technical skills in SQL, Python, 
+and Power BI.
 
 ---
 
-# Featured Enterprise Projects
+## 🏆 Flagship Project — Veltrix AI RevOps Intelligence Platform
 
-| Project | Description | Tech Stack |
-|---|---|---|
-| **Veltrix RevOps Intelligence** | Enterprise revenue operations intelligence system for executive KPI monitoring, forecasting, churn analysis, and operational visibility | SQL, Python, Power BI |
-| **SaaS User Retention Analytics** | Product analytics platform focused on cohort analysis, activation funnels, and retention intelligence | SQL, Python |
-| **Marketing Attribution Intelligence** | Multi-channel campaign performance and CAC/LTV analytics system | SQL, Power BI |
-| **Customer Churn Prediction Engine** | Machine learning pipeline for churn prediction and customer risk scoring | Python, scikit-learn |
+The most comprehensive project in this portfolio. A complete 
+4-page Revenue Operations Intelligence Platform built for a 
+fictional B2B SaaS company.
 
-# Featured Project
-
-## Vertix RevOps Intelligence
-
-Enterprise-grade Revenue Operations and Business Intelligence platform built using SQL, Power BI, Python, and Predictive Analytics.
-
-### Project Highlights
-
-- Executive KPI Monitoring
-- Revenue Performance Analysis
-- Customer Segmentation
-- Forecasting & Predictive Intelligence
-- Operational Analytics
+### What Was Built
+- 6 synthetic datasets with embedded business logic (50,000+ rows)
+- Complete star schema data model
+- 40+ DAX measures library
+- 4-page Power BI dashboard covering the full GTM analytics stack
 
 ### Dashboard Pages
 
-#### Page 1 –  Executive Command Center
+**Page 1 — Executive Command Center**
+![Executive Command Center](01-veltrix-revops-intelligence/assets/screenshots/page_1_executive_summary.png)
 
-![Executive Summary](01-veltrix-revops-intelligence/assets/screenshots/page_1_executive_summary.png)
+**Page 2 — Revenue Operations Intelligence**
+![Revenue Operations](01-veltrix-revops-intelligence/assets/screenshots/page_2_revenue_analysis.png)
 
-#### Page 2 – Revenue Operations Intelligence
+**Page 3 — Customer Health & Retention Intelligence**
+![Customer Health](01-veltrix-revops-intelligence/assets/screenshots/page_3_customer_segments.png)
 
-![Revenue Analysis](01-veltrix-revops-intelligence/assets/screenshots/page_2_revenue_analysis.png)
-
-## Page 3 – Customer Health & Retention Intelligence
-
-![Customer Segmentation](01-veltrix-revops-intelligence/assets/screenshots/page_3_customer_segments.png)
-
-## Page 4 –  Forecasting & Predictive Intelligence
-
+**Page 4 — Forecasting & Predictive Intelligence**
 ![Forecasting](01-veltrix-revops-intelligence/assets/screenshots/page_4_forecasting_predictive_intelligence.png)
----
 
-# Core Capabilities
+### Key Business Insights Uncovered
+- At Risk customers churn at **52.36%** vs 7.04% for Healthy segment
+- SLA breach rate correlates with churn at **r = 0.68**
+- Customers onboarded in 7–14 days show **highest churn** — 
+  quality of onboarding matters more than speed
+- Enterprise plan drives **82% of total ARR** (301M of 366M)
+- NRR of **112.34%** confirms healthy expansion motion
 
+### Tech Stack
+| Layer | Tools |
+|---|---|
+| Dashboard | Power BI Desktop, DAX, Data Modeling |
+| Data | Python (pandas, numpy), 6 CSV datasets |
+| SQL | Schema design, staging, business analysis queries |
+| Architecture | Star schema, fact/dimension tables, RLS |
 
-### Executive Command Center
-- Pipeline value monitoring
-- Win rate tracking
-- Deal velocity analysis
-
-### Revenue Operations Intelligence
-- Revenue trend analysis
-- Sales performance monitoring
-- Opportunity pipeline management
-
-### Customer Health & Retention Intelligence
-- Customer segmentation analysis
-- Retention performance monitoring
-- High-value customer identification
-
-### Forecasting & Predictive Intelligence
-- Revenue forecasting
-- Forecast accuracy measurement
-- Risk and opportunity identification
+**[→ Explore Full Project](https://github.com/shaheero699-lang/shaheer-analytics/tree/main/01-veltrix-revops-intelligence)**
 
 ---
 
-# Repository Architecture
+## Skills & Tools
 
-```text
-shaheer-analytics
-│
-├── 01-veltrix-revops-intelligence
-├── 02-product-retention-analytics
-├── 03-marketing-attribution-intelligence
-├── 04-churn-prediction-engine
-│
-└── supporting-assets
+| Category | Tools |
+|---|---|
+| Business Intelligence | Power BI, DAX, Star Schema, Data Modeling |
+| SQL | Query writing, CTEs, window functions, schema design |
+| Python | pandas, numpy, matplotlib, seaborn, scikit-learn |
+| Domain Knowledge | RevOps, SaaS Metrics, Churn Analysis, Cohort Analysis, GTM |
+
+---
+
+## Contact
+
+📩 Open to Data Analyst & RevOps Analyst roles (12 LPA target)  
+🔗 [LinkedIn](https://www.linkedin.com/in/shaheer-mohamed-769b61312/)  
+📍 Bengaluru, India
