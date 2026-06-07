@@ -1,14 +1,28 @@
+-- ================================================
+-- Customers Table Schema
+-- Veltrix AI RevOps Intelligence Platform
+-- ================================================
+
 CREATE TABLE customers (
-    customer_id VARCHAR(20) PRIMARY KEY,
-    company_name VARCHAR(255) NOT NULL,
-    company_size VARCHAR(50),
-    industry VARCHAR(100),
-    signup_date DATE,
-    region VARCHAR(50),
-    ARR DECIMAL(15,2),
-    plan_type VARCHAR(50),
-    onboarding_completion_days INT,
-    customer_health_score INT CHECK (customer_health_score BETWEEN 0 AND 100),
-    acquisition_channel VARCHAR(100),
-    account_manager VARCHAR(100)
+    customer_id         VARCHAR(20) PRIMARY KEY,
+    company_name        VARCHAR(100) NOT NULL,
+    industry            VARCHAR(50),
+    company_size        VARCHAR(20),
+    region              VARCHAR(50),
+    plan_type           VARCHAR(20),
+    ARR                 DECIMAL(12,2),
+    signup_date         DATE,
+    onboarding_days     INT,
+    customer_health_score DECIMAL(5,2),
+    health_segment      VARCHAR(20),
+    account_manager     VARCHAR(50),
+    acquisition_channel VARCHAR(50)
 );
+
+-- Indexes
+CREATE INDEX idx_customers_plan_type 
+    ON customers(plan_type);
+CREATE INDEX idx_customers_health_segment 
+    ON customers(health_segment);
+CREATE INDEX idx_customers_region 
+    ON customers(region);
