@@ -1,15 +1,23 @@
-CREATE TABLE support_tickets (
-    ticket_id VARCHAR(20) PRIMARY KEY,
-    customer_id VARCHAR(20) NOT NULL,
-    issue_type VARCHAR(100),
-    priority VARCHAR(50),
-    created_date DATE NOT NULL,
-    resolution_time_hours DECIMAL(8,2),
-    SLA_breach_flag BOOLEAN,
-    CSAT_score DECIMAL(3,2) CHECK (CSAT_score BETWEEN 0 AND 5),
-    escalation_flag BOOLEAN,
+-- ================================================
+-- Support Tickets Table Schema
+-- Veltrix AI RevOps Intelligence Platform
+-- ================================================
 
-    CONSTRAINT fk_ticket_customer
-        FOREIGN KEY (customer_id)
+CREATE TABLE support_tickets (
+    ticket_id           VARCHAR(20) PRIMARY KEY,
+    customer_id         VARCHAR(20) NOT NULL,
+    created_date        DATE,
+    issue_type          VARCHAR(50),
+    priority            VARCHAR(20),
+    resolution_time     DECIMAL(6,2),
+    SLA_breach_flag     INT DEFAULT 0,
+    escalation_flag     INT DEFAULT 0,
+    CSAT_score          DECIMAL(3,1),
+    FOREIGN KEY (customer_id) 
         REFERENCES customers(customer_id)
 );
+
+CREATE INDEX idx_tickets_customer 
+    ON support_tickets(customer_id);
+CREATE INDEX idx_tickets_sla 
+    ON support_tickets(SLA_breach_flag);
