@@ -79,6 +79,6 @@ fictional B2B SaaS company.
 
 ## Contact
 
-📩 Open to Data Analyst & RevOps Analyst roles (12 LPA target)  
+📩 Open to Data Analyst & RevOps Analyst roles   
 🔗 [LinkedIn](https://www.linkedin.com/in/shaheer-mohamed-769b61312/)  
 📍 Bengaluru, India
