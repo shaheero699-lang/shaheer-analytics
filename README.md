@@ -20,7 +20,7 @@ and Power BI.
 
 ---
 
-## 🏆 Flagship Project — Veltrix AI RevOps Intelligence Platform
+## Flagship Project — Veltrix AI RevOps Intelligence Platform
 
 The most comprehensive project in this portfolio. A complete 
 4-page Revenue Operations Intelligence Platform built for a 
