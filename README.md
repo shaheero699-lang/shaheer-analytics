@@ -79,31 +79,26 @@ Enterprise-grade Revenue Operations and Business Intelligence platform built usi
 
 # Core Capabilities
 
-## Business Intelligence
-- Executive KPI systems
-- Revenue intelligence
-- Operational reporting
-- Forecasting workflows
-- Strategic analytics
 
-## Data Analytics
-- SQL transformations
-- Exploratory data analysis
-- Cohort analysis
-- Funnel analytics
-- Customer segmentation
+### Executive Command Center
+- Pipeline value monitoring
+- Win rate tracking
+- Deal velocity analysis
 
-## Predictive Analytics
+### Revenue Operations Intelligence
+- Revenue trend analysis
+- Sales performance monitoring
+- Opportunity pipeline management
+
+### Customer Health & Retention Intelligence
+- Customer segmentation analysis
+- Retention performance monitoring
+- High-value customer identification
+
+### Forecasting & Predictive Intelligence
 - Revenue forecasting
-- Churn prediction
-- Customer risk scoring
-- Trend modeling
-
-## Visualization & Reporting
-- Power BI dashboards
-- DAX modeling
-- Executive storytelling
-- Interactive reporting systems
+- Forecast accuracy measurement
+- Risk and opportunity identification
 
 ---
 
