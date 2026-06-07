@@ -60,35 +60,19 @@ Enterprise-grade Revenue Operations and Business Intelligence platform built usi
 
 ### Dashboard Pages
 
-#### Page 1 – Executive Summary
+#### Page 1 –  Executive Command Center
 
 ![Executive Summary](01-veltrix-revops-intelligence/assets/screenshots/page_1_executive_summary.png)
 
-#### Page 2 – Revenue Analysis
+#### Page 2 – Revenue Operations Intelligence
 
 ![Revenue Analysis](01-veltrix-revops-intelligence/assets/screenshots/page_2_revenue_analysis.png)
 
-## Page 3 – Customer Segmentation
-
-Customer segmentation dashboard designed to identify high-value customer groups, analyze segment performance, and support targeted revenue growth strategies.
-
-### Business Questions Answered
-
-- Which customer segments generate the highest revenue?
-- Which segments have the strongest retention?
-- Which customer groups require attention?
-- Where should sales and marketing efforts be focused?
-
-### Key Insights
-
-- Segment-level revenue contribution
-- Customer distribution across segments
-- Growth opportunities by segment
-- Retention and engagement analysis
+## Page 3 – Customer Health & Retention Intelligence
 
 ![Customer Segmentation](01-veltrix-revops-intelligence/assets/screenshots/page_3_customer_segments.png)
 
-#### Page 4 – Forecasting & Predictive Intelligence
+## Page 4 –  Forecasting & Predictive Intelligence
 
 ![Forecasting](01-veltrix-revops-intelligence/assets/screenshots/page_4_forecasting_predictive_intelligence.png)
 ---
