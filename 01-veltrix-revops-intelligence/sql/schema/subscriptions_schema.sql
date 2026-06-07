@@ -1,16 +1,25 @@
-CREATE TABLE subscriptions (
-    subscription_id VARCHAR(20) PRIMARY KEY,
-    customer_id VARCHAR(20),
-    subscription_start_date DATE,
-    renewal_date DATE,
-    MRR DECIMAL(15,2),
-    ARR DECIMAL(15,2),
-    renewal_status VARCHAR(50),
-    churn_flag BOOLEAN,
-    expansion_revenue DECIMAL(15,2),
-    contract_length_months INT CHECK (contract_length_months > 0),
+-- ================================================
+-- Subscriptions Table Schema
+-- Veltrix AI RevOps Intelligence Platform
+-- ================================================
 
-    CONSTRAINT fk_customer
-        FOREIGN KEY (customer_id)
+CREATE TABLE subscriptions (
+    subscription_id         VARCHAR(20) PRIMARY KEY,
+    customer_id             VARCHAR(20) NOT NULL,
+    plan_type               VARCHAR(20),
+    mrr                     DECIMAL(10,2),
+    arr                     DECIMAL(12,2),
+    subscription_start_date DATE,
+    subscription_end_date   DATE,
+    churn_flag              INT DEFAULT 0,
+    churn_reason            VARCHAR(100),
+    renewal_date            DATE,
+    contract_length_months  INT,
+    FOREIGN KEY (customer_id) 
         REFERENCES customers(customer_id)
 );
+
+CREATE INDEX idx_subscriptions_customer 
+    ON subscriptions(customer_id);
+CREATE INDEX idx_subscriptions_churn 
+    ON subscriptions(churn_flag);
