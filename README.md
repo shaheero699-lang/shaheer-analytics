@@ -44,6 +44,37 @@ The focus of this portfolio is not only dashboard creation, but building complet
 | **Marketing Attribution Intelligence** | Multi-channel campaign performance and CAC/LTV analytics system | SQL, Power BI |
 | **Customer Churn Prediction Engine** | Machine learning pipeline for churn prediction and customer risk scoring | Python, scikit-learn |
 
+# Featured Project
+
+## Vertix RevOps Intelligence
+
+Enterprise-grade Revenue Operations and Business Intelligence platform built using SQL, Power BI, Python, and Predictive Analytics.
+
+### Project Highlights
+
+- Executive KPI Monitoring
+- Revenue Performance Analysis
+- Customer Segmentation
+- Forecasting & Predictive Intelligence
+- Operational Analytics
+
+### Dashboard Pages
+
+#### Page 1 – Executive Summary
+
+![Executive Summary](01-veltrix-revops-intelligence/assets/screenshots/page_1_executive_summary.png)
+
+#### Page 2 – Revenue Analysis
+
+![Revenue Analysis](01-veltrix-revops-intelligence/assets/screenshots/page_2_revenue_analysis.png)
+
+#### Page 3 – Customer Segmentation
+
+![Customer Segmentation](01-veltrix-revops-intelligence/assets/screenshots/page_3_customer_segmentation.png)
+
+#### Page 4 – Forecasting & Predictive Intelligence
+
+![Forecasting](01-veltrix-revops-intelligence/assets/screenshots/page_4_forecasting_predictive_intelligence.png)
 ---
 
 # Core Capabilities
