@@ -2,7 +2,7 @@
 
 # Shaheer Analytics
 
-### Enterprise Analytics | RevOps Intelligence | Forecasting | Business Intelligence
+### Enterprise Analytics | RevOps Intelligence | Forecasting | Business Intelligence,
 
 Enterprise analytics portfolio focused on executive decision-making, revenue operations intelligence, customer analytics, forecasting, and business performance optimization using SQL, Python, and Power BI.
 
